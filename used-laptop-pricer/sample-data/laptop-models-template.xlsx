@@ -1,0 +1,18 @@
+# This is a placeholder file for the Excel template
+# The actual Excel file would be created using PhpSpreadsheet library
+# Users should download this template to understand the required format
+
+Required columns for laptop models import:
+1. برند (Brand)
+2. مدل (Model) 
+3. سال عرضه (Release Year)
+4. قیمت پایه (Base Price)
+5. CPU پایه (Base CPU)
+6. RAM پایه (Base RAM)
+7. GPU پایه (Base GPU)
+8. Storage پایه (Base Storage)
+
+Sample data:
+Dell,XPS 13,2020,45000000,Intel Core i7-1065G7,16GB,Intel UHD Graphics,512GB SSD
+Apple,MacBook Pro 13,2021,55000000,Apple M1,8GB,Apple M1 GPU,256GB SSD
+Lenovo,ThinkPad X1 Carbon,2019,35000000,Intel Core i5-8265U,8GB,Intel UHD Graphics 620,256GB SSD
