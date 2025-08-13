@@ -1,0 +1,12 @@
+{
+  "name": "hoseinmos/used-laptop-pricer",
+  "description": "WordPress plugin to calculate used laptop prices (Market-Based Pricing) with Excel import/export.",
+  "type": "project",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    { "name": "hoseinmos" }
+  ],
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.29"
+  }
+}

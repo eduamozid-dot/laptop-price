@@ -1,0 +1,18 @@
+/* RTL base */
+.ulp-container { direction: rtl; font-family: inherit; }
+.ulp-form { display: grid; gap: 12px; max-width: 640px; margin: 0 auto; background: #fff; padding: 16px; border: 1px solid #e2e8f0; border-radius: 8px; }
+.ulp-row { display: grid; gap: 6px; }
+.ulp-row label { font-weight: 600; }
+.ulp-row input, .ulp-row select { padding: 8px 10px; border: 1px solid #cbd5e1; border-radius: 6px; background: #f8fafc; }
+.ulp-actions { text-align: center; }
+.ulp-btn { background: #0ea5e9; color: #fff; padding: 10px 16px; border: 0; border-radius: 6px; cursor: pointer; }
+.ulp-btn:hover { background: #0284c7; }
+
+.ulp-result { margin: 16px auto; max-width: 640px; background: #f1f5f9; border: 1px solid #e2e8f0; border-radius: 8px; padding: 16px; }
+.ulp-result .prices { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.ulp-result .price-box { flex: 1 1 200px; background: #fff; border: 1px solid #e5e7eb; border-radius: 8px; padding: 12px; text-align: center; }
+.ulp-result .muted { color: #64748b; font-size: 13px; }
+
+@media (max-width: 480px) {
+  .ulp-form { padding: 12px; }
+}
