@@ -1,0 +1,449 @@
+/**
+ * Used Laptop Pricer - Admin Styles
+ * RTL Support and Modern WordPress Admin Design
+ */
+
+/* Admin Container */
+.ulp-admin-wrap {
+    direction: rtl;
+    text-align: right;
+}
+
+.ulp-admin-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.ulp-admin-main {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ulp-admin-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Info Boxes */
+.ulp-info-box {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-right: 4px solid #0073aa;
+}
+
+.ulp-info-box h3 {
+    margin: 0 0 15px 0;
+    color: #0073aa;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.ulp-info-box p {
+    margin: 0 0 15px 0;
+    color: #666;
+    line-height: 1.6;
+}
+
+.ulp-info-box ul {
+    margin: 0;
+    padding-right: 20px;
+    color: #666;
+}
+
+.ulp-info-box li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+.ulp-info-box a {
+    color: #0073aa;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.ulp-info-box a:hover {
+    text-decoration: underline;
+}
+
+/* Form Container */
+.ulp-form-container {
+    background: white;
+    border-radius: 8px;
+    padding: 25px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ulp-form-container h2 {
+    margin: 0 0 25px 0;
+    color: #23282d;
+    font-size: 1.5em;
+    font-weight: 600;
+    border-bottom: 2px solid #0073aa;
+    padding-bottom: 10px;
+}
+
+/* Import Info */
+.ulp-import-info {
+    background: #f0f8ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.ulp-import-info h3 {
+    margin: 0 0 15px 0;
+    color: #0073aa;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.ulp-import-info ol {
+    margin: 0;
+    padding-right: 20px;
+    color: #666;
+}
+
+.ulp-import-info li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+/* Models and Parts Headers */
+.ulp-models-header,
+.ulp-parts-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 6px;
+    border: 1px solid #e1e1e1;
+}
+
+.ulp-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.ulp-filters {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.ulp-filters input[type="text"] {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.ulp-filters select {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Tables */
+.ulp-models-table,
+.ulp-parts-table {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ulp-models-table table,
+.ulp-parts-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ulp-models-table th,
+.ulp-parts-table th {
+    background: #f1f1f1;
+    padding: 12px 15px;
+    text-align: right;
+    font-weight: 600;
+    color: #23282d;
+    border-bottom: 2px solid #ddd;
+}
+
+.ulp-models-table td,
+.ulp-parts-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.ulp-models-table tr:hover,
+.ulp-parts-table tr:hover {
+    background: #f9f9f9;
+}
+
+/* Condition Multipliers */
+.ulp-condition-row {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+.ulp-condition-row label {
+    min-width: 80px;
+    font-weight: 500;
+    color: #333;
+}
+
+.ulp-condition-row input {
+    width: 80px;
+    padding: 6px 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+}
+
+/* Buttons */
+.ulp-submit-btn,
+.ulp-reset-btn {
+    background: #0073aa;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ulp-submit-btn:hover,
+.ulp-reset-btn:hover {
+    background: #005a87;
+    transform: translateY(-1px);
+}
+
+.ulp-submit-btn:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Notices */
+.ulp-admin-wrap .notice {
+    margin: 20px 0;
+    padding: 12px 15px;
+    border-radius: 4px;
+    border-right: 4px solid;
+}
+
+.ulp-admin-wrap .notice-success {
+    background: #d4edda;
+    border-color: #28a745;
+    color: #155724;
+}
+
+.ulp-admin-wrap .notice-error {
+    background: #f8d7da;
+    border-color: #dc3545;
+    color: #721c24;
+}
+
+.ulp-admin-wrap .notice-warning {
+    background: #fff3cd;
+    border-color: #ffc107;
+    color: #856404;
+}
+
+.ulp-admin-wrap .notice-info {
+    background: #d1ecf1;
+    border-color: #17a2b8;
+    color: #0c5460;
+}
+
+/* Form Fields */
+.ulp-form-container .form-table th {
+    text-align: right;
+    padding: 15px 10px 15px 0;
+    width: 200px;
+    vertical-align: top;
+    font-weight: 600;
+    color: #23282d;
+}
+
+.ulp-form-container .form-table td {
+    padding: 15px 10px;
+    vertical-align: top;
+}
+
+.ulp-form-container .form-table input[type="text"],
+.ulp-form-container .form-table input[type="number"],
+.ulp-form-container .form-table select {
+    width: 100%;
+    max-width: 400px;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.ulp-form-container .form-table input[type="text"]:focus,
+.ulp-form-container .form-table input[type="number"]:focus,
+.ulp-form-container .form-table select:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+    outline: none;
+}
+
+.ulp-form-container .form-table .description {
+    margin-top: 5px;
+    color: #666;
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .ulp-admin-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .ulp-admin-sidebar {
+        order: -1;
+    }
+}
+
+@media (max-width: 768px) {
+    .ulp-models-header,
+    .ulp-parts-header {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+    
+    .ulp-actions {
+        justify-content: center;
+    }
+    
+    .ulp-filters {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .ulp-filters form {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .ulp-condition-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 8px;
+    }
+    
+    .ulp-condition-row label {
+        min-width: auto;
+    }
+    
+    .ulp-condition-row input {
+        width: 100%;
+    }
+    
+    .ulp-models-table,
+    .ulp-parts-table {
+        overflow-x: auto;
+    }
+    
+    .ulp-models-table table,
+    .ulp-parts-table table {
+        min-width: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ulp-admin-main,
+    .ulp-form-container {
+        padding: 15px;
+    }
+    
+    .ulp-form-container .form-table th,
+    .ulp-form-container .form-table td {
+        display: block;
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    .ulp-form-container .form-table th {
+        border-bottom: none;
+        padding-bottom: 5px;
+    }
+    
+    .ulp-form-container .form-table td {
+        padding-top: 5px;
+        padding-bottom: 15px;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .ulp-admin-sidebar,
+    .ulp-actions,
+    .ulp-filters {
+        display: none;
+    }
+    
+    .ulp-admin-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .ulp-admin-main,
+    .ulp-form-container {
+        box-shadow: none;
+        border: 1px solid #ddd;
+    }
+}
+
+/* Accessibility */
+.ulp-admin-wrap button:focus,
+.ulp-admin-wrap input:focus,
+.ulp-admin-wrap select:focus {
+    outline: 2px solid #0073aa;
+    outline-offset: 2px;
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .ulp-admin-main,
+    .ulp-form-container,
+    .ulp-info-box {
+        border: 2px solid #000;
+    }
+    
+    .ulp-models-table th,
+    .ulp-parts-table th {
+        background: #000;
+        color: #fff;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    .ulp-submit-btn,
+    .ulp-reset-btn {
+        transition: none;
+    }
+}
